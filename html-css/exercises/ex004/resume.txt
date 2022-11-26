@@ -1,0 +1,1 @@
+Using img command, you can use images, both locally and externally located, meaning you can use images from your computer or the internet.
