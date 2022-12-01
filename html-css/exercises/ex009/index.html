@@ -1,35 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formats <small>2</small></title>
+    <title>lists</title>
 </head>
+
 <body>
-    <h1>more formats</h1>
-    <h2>source code</h2>
-        <p>the command, <code>command.getElemementbyID('test')</code> is written using javascript.</p>
-        <pre>
-            <code>
-    num = int(input('Type a number'))
-    if num % 2 ==0:
-        print(f'O number {num} is even')
-    else:
-        print(f'O number {num} is odd')
-    print('end')
-            </code>
-        </pre>
-    <h2>quotes</h2>
-        <p>as a friend of mine once said: <q>the computer is a very quick donkey.</q></p>
-    <h2>full quotations</h2>
-        <p>According to Nick Farwell, in his book Minecraft Redstone Handbook:</p>
-        <BLOCKquote cite="https://www.google.com.br/books/edition/Minecraft_Redstone_Handbook/KN4JogEACAAJ?hl=en">
-            It's time to wire up and get connected to one of the most complex areas of Minecraft--redstone.
-        </BLOCKquote>
-    <h2>abbreviations</h2>
-        <p>Im studying <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS!</abbr></p>
-    <h2>inverted text</h2>
-        <p><bdo dir="rtl">Im learning how to create things in HTML</bdo></p>
+    <h1>working with list</h1>
+    <h2>ordered list</h2>
+    <ol type="I">
+        <!-- 1 A a I i-->
+        <li>wake up</li>
+        <li>call a friend</li>
+        <li>brush my teeth</li>
+        <li>drink coffee</li>
+        <li>do laundry</li>
+        <li>go to college</li>
+        <li>eat lunch</li>
+        <li>go to work</li>
+        <li>go back home</li>
+        <li>sleep</li>
+    </ol>
+    <h2>unordered lists</h2>
+    <ul type="disc">
+        <!--disc circle square-->
+        <li>bread</li>
+        <li>milk</li>
+        <li>tomato</li>
+        <li>butter</li>
+        <li>rice</li>
+        <li>beans</li>
+    </ul>
+    <h2>favorite FFXIV raids</h2>
+    <ol>
+        <li>old</li>
+        <ol type="I">
+            <li>final coil of bahamut
+            <li>the hand of the father
+            <li>alphascape
+            <li>edens promise
+        </ol>
+        <li>new</li>
+        <ol type="a">
+            <li>asphodelos</li>
+        </ol>
+    </ol>
+    <h2>my favorite games</h2>
+    <ol>
+        <li>final fantasy xiv</li>
+        <ul type="disc">
+            <li>amazing lore</li>
+            <li>fashion</li>
+            <ul type="square">
+                <li>my favorite game</li>
+            </ul>
+        </ul>
+        <li>dark souls II</li>
+        <ul type="disc">
+            <li>build variety</li>
+            <li>lore</li>
+        </ul>
+        <li>monster hunter world</li>
+        <ul type="disc">
+            <li>revamp of a loved franchise</li>
+            <li>mantles</li>
+        </ul>
+        <li>black desert online</li>
+        <ul type="disc">
+            <li>amazing combat</li>
+            <li>good pvp</li>
+        </ul>
+        <li>world of warcraft</li>
+        <ul type="disc">
+            <li>good universe</li>
+            <li>good pvp</li>
+        </ul>
+        <li>maplestory</li>
+        <ul type="disc">
+            <li>the gameplay fells nice</li>
+            <li>cute graphics</li>
+        </ul>
+        <li>monster hunter (ps2)</li>
+        <ul type="disc">
+            <li>the first game of one of my favorite franchises</li>
+            <li>Monster hunter "PROOF OF A HERO" (original full ost) HQ</li>
+        </ul>
+        <li>monster hunter tri</li>
+        <ul type="disc">
+            <li>lagiacrus</li>
+            <li>online aspect</li>
+        </ul>
+        <li>lost ark</li>
+        <ul type="disc">
+            <li>fun combat</li>
+            <li>good graphics</li>
+        </ul>
+        <li>monster hunter freemdom unite</li>
+        <ul type="disc">
+            <li>hard game</li>
+            <li>nostalgy</li>
+        </ul>
+    </ol>
+    <h2>definition list</h2>
+    <dl>
+        <dt>html</dt>
+        <dd>the standard markup language for documents designed to be displayed in a web browser.</dd>
+        <dt>css</dt>
+        <dd>style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.</dd>
+        <dt>javascript</dt>
+        <dd>an object-oriented computer programming language commonly used to create interactive effects within web browsers.</dd>
+    </dl>
 </body>
+
 </html>
