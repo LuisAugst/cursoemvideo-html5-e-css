@@ -1,0 +1,1 @@
+learn how to do dinamic images. that show depending on the max resolution of who is seeing it.

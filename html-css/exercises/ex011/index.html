@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media on html5</title>
+</head>
+
+<body>
+    <h1>dinamic image</h1>
+    <p>zoom in and out on your browser</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="images/image-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/image-m.png" type="image/png">
+        <img src="images/image-g.png" alt="dinamic image">
+    </picture>
+    
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/WeBubbles-FreedomTrailStudio.mp3" type="audio/mpeg">
+        <source src="media/WeBubbles-FreedomTrailStudio.wav" type="audio/wav">
+        <source src="media/WeBubbles-FreedomTrailStudio.ogg" type="audio/ogg">
+    </audio>
+    <p>unfortunately, your browser can't reproduce audio. <a href="media/WeBubbles-FreedomTrailStudio.mp3">click
+    here</a> to download the mp3 archive</p>
+
+    <!--the source image always need to be: bigger>smaller -->
+</body>
+
+</html>
