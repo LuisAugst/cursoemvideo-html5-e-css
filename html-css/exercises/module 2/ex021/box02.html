@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav{
+            background-color: lightpink;
+            padding: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: p5px 3px 7px 1px rgba(0, 0, 0, 0.494);
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(112, 112, 112);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>new site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+
+    </header>
+    <main>
+        <section id="topics"></section>
+            <p>
+                <a href="#">dsbm</a>
+                <a href="#">dasd</a>
+                <a href="#">321s</a>
+            </p>
+        <section id="news">
+            <h2>news about lorem</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste dolorum nemo in eaque necessitatibus. Culpa, distinctio facilis asperiores ut quis ullam voluptatibus. Neque ipsum quaerat consectetur voluptatibus assumenda fugiat est?</p>
+                <aside>article written by ajsdkl</aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>developed by asjdasjkl</p>
+    </footer>
+</body>
+</html>
