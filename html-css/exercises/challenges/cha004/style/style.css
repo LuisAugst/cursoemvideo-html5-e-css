@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
+
+:root{
+    --col0: #FFC0E7
+    --col1: #FFBBB3
+    --col2: #E8A2AB
+
+    --default-font: Arial, Verdana, Helvetica, sans-serif;
+    --custom-font: 'Raleway', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--col0);
+    font-family: var(--default-font);
+}
+
+header{
+    background-color: var(--col2);
+}
+
+header>p {
+    color: white;
+}
+
+nav{
+    background-color: var(--col2);
+}
+
+main{
+    background-color: white;
+}
+header > h1{
+    color: #FFBBB3;
+    font-family: var(--custom-font);
+}
+
+main h1{
+    color: var(--col1);
+}
+
+main h2{
+    
+}
+
+footer{
+    background-color: var(--col2);
+    color: white;
+}
