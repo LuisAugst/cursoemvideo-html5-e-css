@@ -12,6 +12,7 @@
 
 </head>
 
+
 <body>
 
 
@@ -32,8 +33,8 @@
         <a href="#">Curiosity</a>
         <a href="#">Talk with Us</a>
     </nav>
-
     <main>
+    
 
         <h1>
             Lorem
@@ -45,14 +46,17 @@
         <article>
 
             <h2>
-                lorem ipsum dolor sit
+                Lorem ipsum dolor sit
             </h2>
 
             <p>
                 <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" class="link" target="_blank">Lorem ipsum</a> dolor sit amet consectetur adipisicing elit. Suscipit aut ad eius quas odit tenetur voluptate fuga ipsum odio, incidunt commodi, ipsa facilarum dicblanditiis animi recusandae quam unde.
             </p>
 
-            <img src="images/image.png" alt="" style="max-width: 750px; max-height: 350px;">
+            <picture>
+                <source media="(max-width: 750px )" srcset="images/image.png">
+                <img src="images/image.png" alt="" style="max-width: 750px; max-height: 350px;">
+            </picture>
             
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione earum velit iure porro tempora itaque
@@ -71,7 +75,10 @@
                 quo ipsa sapiente tenetur accusantium laboriosam laborum nihil iusto! Ea nihil modi assumenda! Itaque?
             </p>
 
-            <img src="images/image2.png" alt="" style="max-width: 750px; max-height: 350px; ">
+            <picture>
+                <source media="(max-width:750px )" srcset="images/image2.png">
+                <img src="images/image2.png" alt="" style="max-width: 750px; max-height: 350px; ">
+            </picture>
 
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, odit blanditiis labore sit corrupti non esse quia! Velit saepe dolorum cupiditate nostrum, magnam officia voluptatem, consequatur omnis quod soluta cumque!
@@ -86,27 +93,25 @@
                 dolor omnis tempora corrupti.
             </p>
 
-            <iframe width="700" height="350" src="https://www.youtube.com/embed/r8BYL-vHZxo"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen id="v1"></iframe>
+            <div class="video">
+                <iframe width="700" height="350" src="https://www.youtube.com/embed/r8BYL-vHZxo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen id="v1"></iframe>
+            </div>
                 
-            <h1 id="e2">
-                lorem?
-            </h1>
+            <h3 id="e2">
+                Lorem?
+            </h3>
 
             <aside>
-
-                <h3>
-                    Lorem ipsum?
-                </h3>
 
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores animi neque sapiente quidem quasi,ex enim dignissimos culpa esse accusantium totam illo mollitia temporibus suscipit magnam, nesciunt, exercitationem quisquam consequatur.
                 </p>
 
-                <div style=display:flex; flex-direction:column;>
-                    <ul style="width: 10%;">
+                <div id="list">
+                    <ul>
                         <li>
                             <abbr title="lorem">1</abbr>
                         </li>
@@ -129,7 +134,7 @@
                             <abbr title="lorem">7</abbr>
                         </li>
                     </ul>
-                    <ul style="width: 10%;">
+                    <ul>
                         <li>
                             <abbr title="lorem">8</abbr>
                         </li>
