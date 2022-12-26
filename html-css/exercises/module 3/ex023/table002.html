@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table{
+        width: 500px;
+        border-collapse: collapse;
+    }
+
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    
+    thead, tfoot{
+        background-color: gray;
+        color: white;
+    }
+
+    tbody>tr:nth-child(2n){
+        background-color: lightgray;
+    }
+
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+    .number{
+        text-align: right;
+    }
+</style>
+<body>
+    <h1>using big tables</h1>
+    <!--big table anatomy
+        table
+            caption
+            thead
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+    <table>
+        <caption>brazilian's federal state population</caption>
+        <thead>
+            <tr>
+                <th scope="col">state</th>
+                <th scope="col" style="width: 50px;">population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sao paulo</td>
+                <td class="number">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="number">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="number">17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total population</th>
+                <td class="number"><strong>84,352,783</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
