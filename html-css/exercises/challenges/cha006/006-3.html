@@ -39,58 +39,66 @@ th{
 </style>
 <body>
     <table>
+        <col>
+        <colgroup span=2></colgroup>
+        <colgroup span=2></colgroup>
         <thead>
+            <tr>
+               
+            </tr>
             <tr scope="rowgroup">
-                <th rowspan="3">Field</th>
-                <th rowspan="3">Classes</th>
-                <th rowspan="3">Grades</th>
-                <th rowspan="3">Average Grade</th>
-                <th rowspan="3">grade 1</th>
-                <th rowspan="3">grade 2</th>
+                <th rowspan="3" scope="row">Field</th>
+                <th rowspan="3" scope="row">Classes</th>
+                <th colspan="2" scope="row">Grades</th>
+                <th rowspan="3" scope="row">Average Grade</th>
+            </tr>
+            <tr>
+                <th scope="col">grade 1</th>
+                <th scope="col">grade 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td rowspan="4" scope="row">Exact S.</td>
-                <td>Mathematics</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td scope="col">Mathematics</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
             </tr>
             <tr>
-                <td>Physics</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td scope="col">Physics</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
             </tr>
             <tr>
-                <td>Chemistry</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td scope="col">Chemistry</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
             </tr>
             <tr>
-                <td>Biology</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td scope="col">Biology</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
             </tr>
             <tr>
-                <td colspan="4" style="font-weight: bold;" class="avg">exact s. average grade</td>
-                <td class="avg">0.0</td>
+                <td colspan="4" style="font-weight: bold;" class="avg" scope="col">exact s. average grade</td>
+                <td class="avg" scope="col">0.0</td>
             </tr>
             <tr>
-                <td rowspan="2" >Human S.</td>
-                <td>History</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td rowspan="2"  scope="col">Human S.</td>
+                <td scope="col">History</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
             </tr>
             <tr>
-                <td>Geography</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td scope="col">Geography</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
+                <td scope="col">0.0</td>
             </tr>
             <tr>
                 <td colspan="4" style="font-weight: bold;" class="avg">human s. average grade</td>
