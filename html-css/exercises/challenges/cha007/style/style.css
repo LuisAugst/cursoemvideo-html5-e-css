@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+
+:root{
+    --col0: #EEF1FF ;
+    --col1: #D2DAFF ;
+    --col2: #AAC4FF  ;
+    --col3: #B1B2FF ;
+
+    --default-font: Verdana, Geneva, Tahoma, sans-serif;
+    --custom-font3: 'Hanken Grotesk', cursive;
+
+}
