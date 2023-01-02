@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>form test</h1>
+    <form action="signup.php" method="post" autocomplete="on">
+        <p>
+            <label for="iuse">user: </label>
+            <input type="text" name="use" id="iuse" required minlength="5" maxlength="15" size="15" placeholder="username" autocomplete="username">
+        </p>
+        <p>
+            <label for="ipas">password: </label>
+            <input type="password" name="pas" id="ipas" required minlength="8" size="15" placeholder="8 char min">
+        </p>
+        <p>
+            <input type="submit" value="send">
+            <p><input type="reset" value="clear"></p>
+        </p>
+    </form>
+</body>
+</html>

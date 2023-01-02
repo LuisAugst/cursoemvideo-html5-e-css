@@ -45,6 +45,7 @@ section#phone{
     height: 627px;
     width: 311px;
     background-image: url(../images/frame-iphone.png);
+    
 }
 
 iframe#screen{
@@ -53,6 +54,9 @@ iframe#screen{
     left: 22px;
     width: 268px;
     height: 471px;
+
+    background-attachment: fixed;
+    
 }
 
 section#social-media{
