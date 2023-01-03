@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>forms test</h1>
+    <form action="signup.php" method="post" autocomplete="on">
+        <p>
+            <label for="iname">name</label>
+            <input type="text" name="name" id="iname" required maxlength="30" placeholder="complete name" autocomplete="name">
+        </p>
+        <p>
+            <label for="iavg">average grade</label>
+            <input type="number" name="avg" id="iavg" minlength="0" max="10" step="0.5" value="5" placeholder="0 to 10" required>
+        </p>
+        <p>
+            <label for="iday">test day</label>
+            <input type="date" name="day" id="iday">
+        </p>
+        <p>
+            <label for="hour">hour of conclusion</label>
+            <input type="time" name="hour" id="ihour">
+        </p>
+        <p>
+            <label for="imonth">year of attendance</label></p>
+            <input type="month" name="month" id="imonth" value="2023-01">
+        <p>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+        </p>
+    </form>
+</body>
+</html>
