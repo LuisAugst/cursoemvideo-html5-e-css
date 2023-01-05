@@ -9,7 +9,20 @@
 <body>
     <h1>form</h1>
     <form action="signup.php" method="post" autocomplete="on">
-
+        <fieldset>
+            <legend>gender</legend>
+            <input type="radio" name="gender" id="igmal" value="M"> <label for="igmal">male</label><br>
+            <input type="radio" name="gender" id="igfem" value="F"> <label for="igfem">female</label><br>
+            <input type="radio" name="gender" id="igother" value="O"> <label for="igother">other</label>
+        </fieldset>
+        <fieldset>
+            <legend>favorite sports</legend>
+            <input type="checkbox" name="sbas" id="isbas"> <label for="isbas"> basketball</label><br>
+            <input type="checkbox" name="sfoot" id="isfoot"> <label for="isfoot" checked>football</label><br>
+            <input type="checkbox" name="sswi" id="iswi"> <label for="iswi">swimming</label><br>
+            <input type="checkbox" name="sten" id="isten"> <label for="isten">tennis</label>
+            
+        </fieldset>
 
         <p>
             <input type="submit" value="send">

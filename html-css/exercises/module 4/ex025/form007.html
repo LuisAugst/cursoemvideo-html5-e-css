@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signup.php" method="post" autocomplete="on">
+        <p>
+            <label for="istat">state</label>
+            <select name="state" id="istat">
+                <optgroup label="Southeast Region">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" selected>Sao Paulo</option>
+                </optgroup>
+
+                <optgroup label="Northeast Region">
+                    <option value="MA">Maranhao</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+            
+        </p>
+
+        <p>
+            <label for="imsg">message:</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        
+        <p>
+            <label for="ijob">job:</label>
+            <input type="text" name="job" id="ijob" list="lstjob">
+            <datalist id="lstjob">
+                <option value="ADM">Administrator</option>
+                <option value="DEV">Developer</option>
+                <option value="CRT">Caretaker</option>
+                <option value="TCH">Teacher</option>
+            </datalist>
+        </p>
+        
+        
+        
+        
+        <p>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+        </p>
+    </form>
+</body>
+</html>

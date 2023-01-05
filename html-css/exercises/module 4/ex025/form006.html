@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signup.php" method="post">
+        <p>
+            <label for="color">color: </label>
+            <input type="color" name="color" id="icolor" value="#00ff00">
+        </p>
+
+        <p>
+            <label for="irange">level of satisfaction: </label>
+            <input type="range" name="range" id="irange" min="1" max="5">
+        </p>
+
+        <p>
+            <label for="ipic">profile picture</label>
+            <input type="file" name="pic" id="ipc">
+        </p>
+        <p>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+        </p>
+    </form>
+</body>
+</html>
