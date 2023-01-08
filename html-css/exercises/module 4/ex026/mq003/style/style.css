@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media all{
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    html, body{
+        width: 100vw;
+        height: 100vh;
+        background-color: lightblue;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    h1{
+        color: white;
+        text-shadow: 3px 3pz 0px black;
+        padding: 10px;
+    }
+}
+
+/* portrait declarations */
+@media screen and (orientation: portrait){
+    body{
+        background-image: url(../images/portrait.png);
+        background-position: center bottom;
+    }
+}
+
+/* landscape declarations */
+@media screen and (orientation: landscape){
+    body{
+        background-image: url(../images/landscape.png);
+        background-position: left bottom;
+    }
+}

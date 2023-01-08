@@ -2,3 +2,8 @@
 
 
 /* landscape */
+
+body{
+    background-image: url(../images/landscape.png);
+    background-position: left bottom;
+}
